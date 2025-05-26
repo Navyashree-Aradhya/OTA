@@ -1,4 +1,4 @@
-# Low power and low voltage sinusoidal 
+# A Low-Power Low-Voltage OTA-C Sinusoidal Oscillator With a Large Tuning Range
 ### 1.Abstract —
 This paper presents a low-power, low-voltage 
 OTA-C sinusoidal oscillator with a wide 
@@ -42,38 +42,50 @@ The oscillatory output can be tapped from one of the OTA-C nodes, typically wher
 • Frequency (MHz) 9807.82 MHz
 103,286.34 MHz
 • Magnitude (dB) -139.18 dB -155.19 dB
+
 • Phase (°) -57.74°-75.93°
+
 • Group Delay (ps) 2.93 ps 74.97 ps
 • Ratio – 93,478.997 MHz (≈ 1.97 
 decades)
+
  Roll-off – ≈ -16 dB/1.97 decades ≈ -
 20 dB/decade
+
  This confirms the expected first-order low-pass 
 behavior of the OTA-C oscillator circuit, 
 validating proper sinusoidal frequency 
 operation.
+
 Key Observations
 Oscillation starts around ~9.8 GHz (9807.82 
 MHz).
+
 • Output drops with -20 dB/decade slope, 
 confirming theoretical behavior.
+
 • Phase shift increases with frequency, consistent 
 with OTA-C networks.
+
 • Tuning range spans tens of GHz, achieved 
 purely through OTA biasing.
+
 ### Conclusion:
 • The breakdown of the functional blocks within the CMOS OTA-C sinusoidal oscillator underscores 
 the sophisticated yet efficient architecture enabling low-power, low-voltage operation. By distinctly 
 identifying and mapping transistors to their corresponding circuit blocks—such as the differential pair, 
 active load, bias generator, output stage, tail current sources, and current mirrors—we gain a deeper 
 insight into the systematic design philosophy that drives precision analog performance.
+
 • Each functional unit plays a critical role in achieving stable and tunable sinusoidal oscillations, 
 reflecting careful transistor-level design and current control. The elegance of this modular organization 
 not only enhances the circuit’s functionality but also ensures scalability, integration feasibility, and 
 robust analog signal processing.
+
 • Ultimately, this comprehensive pin-to-pin mapping reaffirms the importance of transistor-level clarity 
 in complex analog design and serves as a strong foundation for further innovations in low-power 
-oscillator circuits and analog front-end systems
+oscillator circuits and analog front-end systems.
+
 ### References:
 1. Rajput, S. S., & Jamuar, S. S. (2001). Low voltage, low power current mirror for analog VLSI. 
 Microelectronics Journal, 32(5), 329–333.
